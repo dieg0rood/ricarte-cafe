@@ -1,0 +1,47 @@
+.nav-class{
+    margin-top:15px;
+    text-align: center;
+}
+
+.logo-container{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header-container{
+    width: 98%;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-container.home-style{
+    filter: brightness(10);
+    position: absolute;
+    z-index: 1000;
+}
+.logo-container,
+.nav-class{
+    filter: brightness(10);
+}
+
+.logo-container:hover,
+.nav-class:hover{
+    filter: none;
+}
+
+.header-container.page-style{
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.smaller-logo{
+    margin-top:-10px !important;
+    margin-bottom: 10px !important;
+    max-height: 80px !important;
+}
+
+.slider-design{
+    filter: brightness(0.4);
+}

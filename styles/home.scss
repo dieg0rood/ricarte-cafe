@@ -1,0 +1,34 @@
+.arrows-slide {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 30px;
+    color: #fff;
+    z-index: 100000;
+    padding: 15px 30px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.arrows-slide:hover {
+    background-color: #D08339;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.dots-container {
+    position: absolute;
+    left: 47%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top:-40px;
+}
+
+.dots-slide {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dots-slide:hover {
+    cursor:pointer;
+}

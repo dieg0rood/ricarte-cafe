@@ -1,0 +1,52 @@
+.footer-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#D08339;
+    color:white;
+}
+
+.limite-site{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.footer-title{
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.footer-text{
+    font-weight: 300;
+    opacity:0.6;
+}
+
+.footer-text:hover{
+    cursor: pointer;
+    opacity:1;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+.icone-social{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size:20px;
+    opacity:0.6;
+}
+
+.icone-social:hover{
+    cursor: pointer;
+    opacity:1;
+}
+
+.assinatura{
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:12px;
+    font-weight: 300;
+    padding:5px;
+}
